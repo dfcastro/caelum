@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/10/2017, 17:29:37
+    Author     : defensor
+*/
+.container{
+    margin: 0px auto;
+    width: 940px;
+    
+}
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+    
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-opcoes ul{
+    font-size: 15px;
+    
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.sacola{
+    padding-top: 8px;
+}
+header{
+    position: relative;
+}
+.busca,
+.menu-departamentos{
+   background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+  
+}
+
+.busca form
+.busca h2
+.busca-departamentos h2{
+    margin: 10px;
+
+}
+.menu-departamentos li{
+      
+    background: white;
+    margin-bottom: 1px;
+    padding: 
+ 
+}
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+    
+}
+.busca input{
+    vertical-align: middle;
+}
+.busca input[type=search]{
+    width: 150px;
+}
+.menu-departamentos{
+    clear: left;
+}
+.destaque{
+    margin-top: 10px;
+}
+.menu-departamentos{
+margin-top: 10px;
+    padding-top: 10px;
+}
