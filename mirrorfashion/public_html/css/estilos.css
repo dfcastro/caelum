@@ -59,6 +59,8 @@ header{
     margin-right: 10px;
     width: 230px;
     float: left;
+    border-top-left-radius: 4px;
+border-top-right-radius: 4px;
 }
 
 .busca form
@@ -99,12 +101,23 @@ margin-top: 10px;
     width: 445px;
     margin: 10px 0;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 4px #999;
+    
 }
+.painel h2 {
+text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
 .mais-vendidos{
     float:right;
+    background: #dcdcf5;
+background: linear-gradient(#dcdcf5, #f4bebe);
 }
 .novidades{
     float: left;
+    background-color: #f5dcdc;
+background: linear-gradient(#f5dcdc, #bebef4);
 }
 .painel li{
     display: inline-block;
@@ -186,4 +199,10 @@ background-color: #dcdcdc;
 }
 .menu-departamentos li li a:before {
 content: '- ';
+}
+.painel li:hover {
+    background-color: rgba(255,255,255,0.8);
+box-shadow: 0 0 10px #333;
+transition: 0.7s;
+transform: scale(1.05) rotate(-5deg);
 }
