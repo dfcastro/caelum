@@ -67,7 +67,8 @@ Fashion, além de presidentes da União Européia, Ásia e o secretário-geral d
 </ul>
 <div id="rodape">
     <img src="img/logo.png">
-&copy; Copyright Mirror Fashion
+&copy; Copyright Mirror Fashion <?php 
+date ?>
 </div>
 </body>
 </html>
