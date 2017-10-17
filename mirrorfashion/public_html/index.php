@@ -10,25 +10,7 @@
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
 </head>
 <body>
-
-<header class="container">
-    <h1><img src="img/logo.png" alt="Mirror Fasion"></h1>
-    <p class="sacola">
-       
-        Nenhum item na sacola
-       
-    </p>
-
-    <nav class="menu-opcoes">
-        <ul>
-            <li><a href="#">Sua conta</a></li>
-            <li><a href="#">Lista de Desejos</a></li>
-            <li><a href="#"> Cartão Fidelidade</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#"> Ajuda </a></li>
-        </ul>
-    </nav>
-    </header>
+    <?php include("cabecalho.php") ?>
     <div class="container destaque">
         <section class="busca">
             <h2>
@@ -70,7 +52,7 @@
             <ol>
                 <!-- primeiro produto-->
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura1.png">
                             <figcaption>
@@ -80,7 +62,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura2.png">
                             <figcaption>
@@ -90,7 +72,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura3.png">
                             <figcaption>
@@ -100,7 +82,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura4.png">
                                  <figcaption>
@@ -110,7 +92,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura5.png">
                                  <figcaption>
@@ -120,7 +102,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="produto.html">
+                    <a href="produto.php">
                         <figure>
                             <img src="img/produtos/miniatura6.png">
                             <figcaption>
@@ -199,18 +181,8 @@
         </section>
     </div>
     <!-- fim div paineis-->
-    <!-- inicio rodapé -->
-    <footer>
-        <div class="container">
-            <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-            <ul class="social">
-                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-                <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>                
-            </ul>
-        </div>
-    </footer>
-    <!-- fim do rodapé -->
+<?php include("rodape.php") ?>
+
 </body>
 
 </html>

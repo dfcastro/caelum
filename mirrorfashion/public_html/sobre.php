@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Sobre a Mirror Fashion</title>
-    <link rel="stylesheet" href ="css/sobre.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <img src="img/logo.png">
+    <?php include("cabecalho.php") ?>
     <h1>Mirror Fashion</h1>  
     <h2>A Mirror Fashion</h2>
     <figure id="centro-distribuicao">
@@ -65,9 +66,7 @@ Fashion, além de presidentes da União Européia, Ásia e o secretário-geral d
     <li> Mais de um milhão de funcionários em todo o mundo</li>
 
 </ul>
-<div id="rodape">
-    <img src="img/logo.png">
-&copy; Copyright Mirror Fashion <?php print date ('Y') ?>
+<?php include("rodape.php") ?>
 </div>
 </body>
 </html>
