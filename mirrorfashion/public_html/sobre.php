@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Sobre a Mirror Fashion</title>
-    
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
     <?php include("cabecalho.php") ?>
     <h1>Mirror Fashion</h1>  
     <h2>A Mirror Fashion</h2>
